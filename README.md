@@ -1,2 +1,1 @@
 # Cursed Quotes
-asdfasfasdf
