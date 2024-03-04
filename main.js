@@ -33,7 +33,6 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
     }else {
         console.log(quotes[randID]);
-        console.log('To make your own whacked quote, simply add as many nouns or verbs as you like! Or type: "Whacked" in the random field for a random, whacked quote!')
     };
 }
 
