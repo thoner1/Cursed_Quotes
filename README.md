@@ -1,2 +1,2 @@
-# cursedQuotes
+# Cursed Quotes
 asdfasfasdf
