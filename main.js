@@ -18,10 +18,15 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
 //13
     '"Smoking kills. If you are killed, you have lost an important part of your life." - Brooke Shields', '"No. I think gay marriage is something that should be between a man and a woman" - Arnold Schwarzenegger']
 //15
+
+/*---------------------------------------------------------------- Random Selector -----------------------------------------------------------------------------------*/
     let randID = Math.floor(15*(Math.random()));
-    console.log(quotes[randID]);
+
+/*--------------------------------------------------------------- User Modified Quote --------------------------------------------------------------------------------*/
     if (noun_1 || noun_2 || verb_1 || verb_2) {
-        console.log(noun_1);
+        
+
+/*-------------------------------------------------------------- Random Modified Quote -------------------------------------------------------------------------------*/
     } else {
 
     }
