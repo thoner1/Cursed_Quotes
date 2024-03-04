@@ -1,5 +1,5 @@
 cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
-/*------------------------------------------------------------------------ Enter quotes here -------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------ Enter Quotes Here -------------------------------------------------------------------------*/
     const quotes = ['"Ask not what your country can do for you, ask what you can do for your country" - John F. Kennedy', 
 //0
     '"For everyone that exalts himself shall be humbled, and everyone that humbles himself shall be exalted" - Jesus Christ',
@@ -31,8 +31,9 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
         console.log('I');
 
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
-    }else if (noun_1 = 0) {
-
+    }else {
+        console.log(quotes[randID]);
+        console.log('To make your own whacked quote, simply add as many nouns or verbs as you like! Or type: "Whacked" in the random field for a random, whacked quote!')
     };
 }
 
