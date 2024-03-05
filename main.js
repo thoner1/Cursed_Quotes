@@ -1,7 +1,7 @@
 cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
 
 /*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
-let randID = 1; //Math.floor(15*(Math.random()));
+let randID = Math.floor(15*(Math.random()));
 
 /*------------------------------------------------------------------------ Enter Quotes Here -------------------------------------------------------------------------*/
     const quotes = [
@@ -74,12 +74,12 @@ let array = quotes[randID];
 
 //randID === 3
         }else if(noun_1 && randID === 3 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(3,1,noun_1);
+            array.splice(5,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 4
         }else if(noun_1 && randID === 4 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(5,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 5
@@ -89,17 +89,17 @@ let array = quotes[randID];
 
 //randID === 6
         }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(6,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 7
         }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(0,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 8
         }else if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(2,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 9
@@ -109,22 +109,22 @@ let array = quotes[randID];
 
 //randID === 10
         }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(6,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 11
         }else if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(8,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 12
         }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
+            array.splice(8,1,noun_1);
             console.log(array.join(' '));
 
 //randID === 13
 }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
-    array.splice(4,1,noun_1);
+    array.splice(0,1,noun_1);
     console.log(array.join(' '));
 
 //randID === 14
