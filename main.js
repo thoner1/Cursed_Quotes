@@ -1,16 +1,16 @@
 cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
 
 /*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
-let randID = 0; //Math.floor(15*(Math.random()));
+let randID = 1; //Math.floor(15*(Math.random()));
 
 /*------------------------------------------------------------------------ Enter Quotes Here -------------------------------------------------------------------------*/
     const quotes = [['"Ask', 'not', 'what', 'your', 'country', 'can', 'do', 'for', 'you,', 'ask', 'what', 'you', 'can', 'do', 'for', 'your', 'country"', '-', 'John F. Kennedy'], 
 //0
-    '"For everyone that exalts himself shall be humbled, and everyone that humbles himself shall be exalted" - Jesus Christ',
+    ['"For', 'everyone', 'that', 'exalts', 'himself', 'shall', 'be', 'humbled,', 'and', 'everyone', 'that', 'humbles', 'himself', 'shall', 'be', 'exalted"', '-', 'Jesus Christ'],
 //1
-    '"I prefer dangerous freedom over peaceful slavery" - Thomas Jefferson', '"If it is from the internet, it must be true." - Abraham Lincoln',
+    ['"I', 'prefer', 'dangerous', 'freedom', 'over', 'peaceful', 'slavery"', '-', 'Thomas Jefferson'], ['"If', 'it', 'is', 'from', 'the', 'internet,', 'it', 'must', 'be', 'true."', '-', 'Abraham Lincoln'],
 //3
-    '"Thats one small step for man, one giant leap for mankind" - Neil Armstrong', '"The highest result of education is tolerance" - Helen Keller',
+    ['"Thats one small step for man, one giant leap for mankind" - Neil Armstrong'], '"The highest result of education is tolerance" - Helen Keller',
 //6
     '"If you want to make your dreams come true, the first thing you have to do is wake up" - J.M. Power', 
 //7
@@ -28,10 +28,86 @@ let array = quotes[randID];
 /*------------------------------------------------------------- Checks if user entered in a noun or verb -------------------------------------------------------------*/
     if (noun_1 || noun_2 || verb_1 || verb_2) {
 
-// Only noun_1 is entered and randID === 0
+//------------- Only noun_1 is entered 
+//randID === 0
         if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
             array.splice(4,1,noun_1);
             console.log(array.join(' '));
+
+//randID === 1
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 2
+        }else if(noun_1 && randID === 2 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 3
+        }else if(noun_1 && randID === 3 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 4
+        }else if(noun_1 && randID === 4 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 5
+        }else if(noun_1 && randID === 5 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 6
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 7
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 8
+        }else if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 9
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 10
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 11
+        }else if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 12
+        }else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
+
+//randID === 13
+}else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+    array.splice(4,1,noun_1);
+    console.log(array.join(' '));
+
+//randID === 14
+}else if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
+    array.splice(4,1,noun_1);
+    console.log(array.join(' '));
+
+//randID === 15
+}else if(noun_1 && randID === 1 && !noun_2 && !verb_1 && !verb_2) {
+    array.splice(4,1,noun_1);
+    console.log(array.join(' '));
 
 //Only noun_2 is entered
         }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
@@ -46,7 +122,7 @@ let array = quotes[randID];
             console.log(verb_2)
         }
 /*---------------------------------------------------------------------- Random Modified Quote -----------------------------------------------------------------------*/
-    } else if (noun_2) {
+    }else if (noun_2) {
         console.log('I');
 
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
