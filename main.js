@@ -1,6 +1,10 @@
 cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
+
+/*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
+let randID = 0; //Math.floor(15*(Math.random()));
+
 /*------------------------------------------------------------------------ Enter Quotes Here -------------------------------------------------------------------------*/
-    const quotes = ['"Ask not what your country can do for you, ask what you can do for your country" - John F. Kennedy', 
+    const quotes = [['"Ask', 'not', 'what', 'your', 'country', 'can', 'do', 'for', 'you,', 'ask', 'what', 'you', 'can', 'do', 'for', 'your', 'country"', '-', 'John F. Kennedy'], 
 //0
     '"For everyone that exalts himself shall be humbled, and everyone that humbles himself shall be exalted" - Jesus Christ',
 //1
@@ -19,31 +23,36 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
     '"Smoking kills. If you are killed, you have lost an important part of your life." - Brooke Shields', '"No. I think gay marriage is something that should be between a man and a woman" - Arnold Schwarzenegger']
 //15
 
-/*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
-    let randID = Math.floor(15*(Math.random()));
+let array = quotes[randID];
 
 /*------------------------------------------------------------- Checks if user entered in a noun or verb -------------------------------------------------------------*/
     if (noun_1 || noun_2 || verb_1 || verb_2) {
 
-/*--------- Only noun_1 is entered */
-        if(noun_1 && !noun_2 && !verb_1 && !verb_2) {
-            console.log(noun_1)
+// Only noun_1 is entered and randID === 0
+        if(noun_1 && randID === 0 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
 
-/*----------------------------------- Only noun_2 is entered */
+//Only noun_2 is entered
         }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
             console.log(noun_2)
 
-/*------------------------------------------------------------- Only verb_1 is entered */
-        }else if(verb_1 && !noun_1 && !noun_2 && !verb_2)
+//Only verb_1 is entered
+        }else if(verb_1 && !noun_1 && !noun_2 && !verb_2) {
             console.log(verb_1)
+
+//Only verb_2 is entered 
+        }else if(verb_2 && !noun_1 && !noun_2 && !verb_1 && !verb_2) {
+            console.log(verb_2)
+        }
 /*---------------------------------------------------------------------- Random Modified Quote -----------------------------------------------------------------------*/
     } else if (noun_2) {
         console.log('I');
 
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
     }else {
-        console.log(quotes[randID]);
+        console.log(array);
     };
 }
 
-cursedQuotes('John','Sam');
+cursedQuotes('Pizza');
