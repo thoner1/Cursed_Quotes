@@ -22,10 +22,20 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
 /*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
     let randID = Math.floor(15*(Math.random()));
 
-/*----------------------------------------------------------------------- User Modified Quote ------------------------------------------------------------------------*/
+/*------------------------------------------------------------- Checks if user entered in a noun or verb -------------------------------------------------------------*/
     if (noun_1 || noun_2 || verb_1 || verb_2) {
-        
 
+/*--------- Only noun_1 is entered */
+        if(noun_1 && !noun_2 && !verb_1 && !verb_2) {
+            console.log(noun_1)
+
+/*----------------------------------- Only noun_2 is entered */
+        }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
+            console.log(noun_2)
+
+/*------------------------------------------------------------- Only verb_1 is entered */
+        }else if(verb_1 && !noun_1 && !noun_2 && !verb_2)
+            console.log(verb_1)
 /*---------------------------------------------------------------------- Random Modified Quote -----------------------------------------------------------------------*/
     } else if (noun_2) {
         console.log('I');
@@ -36,4 +46,4 @@ cursedQuotes = (noun_1, noun_2, verb_1, verb_2) => {
     };
 }
 
-cursedQuotes();
+cursedQuotes('John','Sam');
