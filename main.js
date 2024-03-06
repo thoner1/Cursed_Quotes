@@ -224,22 +224,22 @@ let array = quotes[randID];
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(9,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 1:
                     array.splice(4,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(3,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 2:
                     array.splice(3,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(1,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 3:
                     array.splice(5,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(7,1, verb_1);
                     console.log(array.join(' ')); 
                     break;
                 case 4:
@@ -249,12 +249,12 @@ let array = quotes[randID];
                     break;
                 case 5:
                     array.splice(4,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(6,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 6:
                     array.splice(6,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(17,2, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 7:
@@ -264,37 +264,37 @@ let array = quotes[randID];
                     break;
                 case 8:
                     array.splice(2,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(6,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 9:
-                    array.splice(4,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(1,1,noun_1);
+                    array.splice(2,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 10:
-                    array.splice(6,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(2,1,noun_1);
+                    array.splice(9,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 11:
                     array.splice(8,1,noun_1);
-                    array.splice(12,1, verb_1);
+                    array.splice(7,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 12:
                     array.splice(8,1,noun_1);
-                    array.splice(12,1, verb_1);
+                    array.splice(15,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 13:
                     array.splice(0,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(1,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 14:
                     array.splice(4,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(9,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 default:
