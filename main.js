@@ -279,12 +279,12 @@ let array = quotes[randID];
                     break;
                 case 11:
                     array.splice(8,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(12,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 12:
                     array.splice(8,1,noun_1);
-                    array.splice(8,1, verb_1);
+                    array.splice(12,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 13:
@@ -324,4 +324,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes('bananas');
+cursedQuotes('bananas',null,'run');
