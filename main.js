@@ -143,25 +143,25 @@ let array = quotes[randID];
 //randID === 1
         }else if(noun_1 && noun_2 && randID === 1 && !verb_1 && !verb_2) {
             array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(12,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 2
         }else if(noun_1 && noun_2 && randID === 2 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(3,1,noun_1);
+            array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 3
         }else if(noun_1 && noun_2 && randID === 3 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(1,1,noun_1);
+            array.splice(5,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 4
         }else if(noun_1 && noun_2 && randID === 4 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(3,1,noun_1);
+            array.splice(8,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 5
