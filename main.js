@@ -178,7 +178,7 @@ let array = quotes[randID];
 
 //randID === 7
         }else if(noun_1 && noun_2 && randID === 7 && !verb_1 && !verb_2) {
-            array.splice(1,1,noun_1);
+            array.splice(0,1,noun_1);
             array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
@@ -202,14 +202,14 @@ let array = quotes[randID];
 
 //randID === 11
         }else if(noun_1 && noun_2 && randID === 11 && !verb_1 && !verb_2) {
-            array.splice(2,1,noun_1);
-            array.splice(6,1,noun_2)
+            array.splice(4,1,noun_1);
+            array.splice(11,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 12
         }else if(noun_1 && noun_2 && randID === 12 && !verb_1 && !verb_2) {
             array.splice(8,1,noun_1);
-            array.splice(15,1,noun_2)
+            array.splice(16,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 13
