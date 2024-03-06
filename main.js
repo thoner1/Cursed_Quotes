@@ -196,8 +196,8 @@ let array = quotes[randID];
 
 //randID === 10
         }else if(noun_1 && noun_2 && randID === 10 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(2,1,noun_1);
+            array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 11
@@ -245,4 +245,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes('fat man', 'pizza');
+cursedQuotes('banana', 'apes');
