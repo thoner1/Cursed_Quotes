@@ -167,31 +167,31 @@ let array = quotes[randID];
 //randID === 5
         }else if(noun_1 && noun_2 && randID === 5 && !verb_1 && !verb_2) {
             array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 6
         }else if(noun_1 && noun_2 && randID === 6 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(6,1,noun_1);
+            array.splice(12,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 7
         }else if(noun_1 && noun_2 && randID === 7 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(1,1,noun_1);
+            array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 8
         }else if(noun_1 && noun_2 && randID === 8 && !verb_1 && !verb_2) {
             array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(8,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 9
         }else if(noun_1 && noun_2 && randID === 9 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(1,1,noun_1);
+            array.splice(9,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 10
@@ -202,26 +202,26 @@ let array = quotes[randID];
 
 //randID === 11
         }else if(noun_1 && noun_2 && randID === 11 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(2,1,noun_1);
+            array.splice(6,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 12
         }else if(noun_1 && noun_2 && randID === 12 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(8,1,noun_1);
+            array.splice(15,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 13
         }else if(noun_1 && noun_2 && randID === 13 && !verb_1 && !verb_2) {
-            array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(0,1,noun_1);
+            array.splice(14,1,noun_2)
             console.log(array.join(' '));
 
 //randID === 14
         }else if(noun_1 && noun_2 && randID === 14 && !verb_1 && !verb_2) {
             array.splice(4,1,noun_1);
-            array.splice(16,1,noun_2)
+            array.splice(15,1,noun_2)
             console.log(array.join(' '));
 //-------------------------------------------------------------------Only noun_2 is entered
         }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
