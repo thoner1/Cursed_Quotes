@@ -42,7 +42,7 @@ let randID = Math.floor(15*(Math.random()));
     ['"I', 'know', 'how', 'hard', 'it', 'is', 'to', 'put', 'food', 'on', 'your', 'family"', '-', 'George W. Bush'], 
 
 //12
-    ['"I', 'have', 'never', 'really', 'wanted', 'to', 'go', 'to', 'Japan.', 'Simply', 'because', 'I', 'dont', 'like', 'eating', 'fish.', 'And', 'I', 'know', 'that', 'is', 'very', 'popular', 'in', 'Africa."', '-', 'Britney Spears'],
+    ['"I', 'have', 'never', 'really', 'wanted', 'to', 'go', 'to', 'Japan','.', 'Simply', 'because', 'I', 'dont', 'like', 'eating', 'fish.', 'And', 'I', 'know', 'that', 'is', 'very', 'popular', 'in', 'Africa."', '-', 'Britney Spears'],
 
 //13
     ['"Smoking', 'kills.', 'If', 'you', 'are', 'killed,', 'you', 'have', 'lost', 'an', 'important', 'part', 'of', 'your', 'life."', '-', 'Brooke Shields'], 
@@ -123,16 +123,107 @@ let array = quotes[randID];
             console.log(array.join(' '));
 
 //randID === 13
-}else if(noun_1 && randID === 13 && !noun_2 && !verb_1 && !verb_2) {
-    array.splice(0,1,noun_1);
-    console.log(array.join(' '));
+        }else if(noun_1 && randID === 13 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(0,1,noun_1);
+            console.log(array.join(' '));
 
 //randID === 14
-}else if(noun_1 && randID === 14 && !noun_2 && !verb_1 && !verb_2) {
-    array.splice(4,1,noun_1);
-    console.log(array.join(' '));
+        }else if(noun_1 && randID === 14 && !noun_2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            console.log(array.join(' '));
 
-//Only noun_2 is entered
+//----------------------------- noun_1 & noun_2 are entered only
+
+//randID === 0
+        }else if(noun_1 && noun_2 && randID === 0 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 1
+        }else if(noun_1 && noun_2 && randID === 1 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 2
+        }else if(noun_1 && noun_2 && randID === 2 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 3
+        }else if(noun_1 && noun_2 && randID === 3 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 4
+        }else if(noun_1 && noun_2 && randID === 4 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 5
+        }else if(noun_1 && noun_2 && randID === 5 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 6
+        }else if(noun_1 && noun_2 && randID === 6 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 7
+        }else if(noun_1 && noun_2 && randID === 7 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 8
+        }else if(noun_1 && noun_2 && randID === 8 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 9
+        }else if(noun_1 && noun_2 && randID === 9 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 10
+        }else if(noun_1 && noun_2 && randID === 10 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 11
+        }else if(noun_1 && noun_2 && randID === 11 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 12
+        }else if(noun_1 && noun_2 && randID === 12 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 13
+        }else if(noun_1 && noun_2 && randID === 13 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+
+//randID === 14
+        }else if(noun_1 && noun_2 && randID === 14 && !verb_1 && !verb_2) {
+            array.splice(4,1,noun_1);
+            array.splice(16,1,noun_2)
+            console.log(array.join(' '));
+//-------------------------------------------------------------------Only noun_2 is entered
         }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
             console.log(noun_2)
 
@@ -154,4 +245,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes('pizza');
+cursedQuotes('fat man', 'pizza');
