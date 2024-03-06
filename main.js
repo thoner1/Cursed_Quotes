@@ -1,5 +1,19 @@
 cursedQuotes = (noun_1, noun_2, verb_1, verb_2, random) => {
 
+// Created in VS code
+
+/* Cursed Quotes is a function that will take a combination of (2) nouns and (2) verbs and will
+randomly insert them into existing inspirational quotes contained in this function.
+
+/* The user can add any combination of nouns and verbs; and will automatically parse a new quote into 
+the console.
+
+/* The user can input nothing and the function will output one of the standard quotes already preconfigured.
+
+/* If the user types "random" in the random field, then the function will parse a new quote to the console
+scrambled with preconfigured nouns and verbs stored from a separate array within this function. */
+
+
 /*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
 let randID = Math.floor(15*(Math.random()));
 
@@ -118,12 +132,13 @@ let array = quotes[randID];
                 case 14:
                     array.splice(4,1,noun_1);
                     console.log(array.join(' '));
+                    break;
                 default:
                     console.log('Houston we have a problem');
                     break;
-            }
+            };
 /*-- noun_1 and noun_2 are only entered -----*/
-        }else if(noun_1 && noun_2 && randID === 0 && !verb_1 && !verb_2) {
+        }else if(noun_1 && noun_2 && !verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -199,10 +214,94 @@ let array = quotes[randID];
                     array.splice(4,1,noun_1);
                     array.splice(15,1,noun_2);
                     console.log(array.join(' '));
+                    break;
                 default:
                     console.log('Houston we have a problem');
                     break;
             }
+/*--------------------------------- noun_1 and verb_1 are only entered --*/
+        }else if(noun_1 && verb_1 && !noun_2 && !verb_2) {
+            switch(randID) {
+                case 0:
+                    array.splice(4,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 1:
+                    array.splice(4,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 2:
+                    array.splice(3,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 3:
+                    array.splice(5,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' ')); 
+                    break;
+                case 4:
+                    array.splice(5,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 5:
+                    array.splice(4,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 6:
+                    array.splice(6,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 7:
+                    array.splice(0,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 8:
+                    array.splice(2,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 9:
+                    array.splice(4,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 10:
+                    array.splice(6,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 11:
+                    array.splice(8,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 12:
+                    array.splice(8,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 13:
+                    array.splice(0,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                case 14:
+                    array.splice(4,1,noun_1);
+                    array.splice(8,1, verb_1);
+                    console.log(array.join(' '));
+                    break;
+                default:
+                    console.log('Houston we have a problem');
+                    break;                
+            }
+
 //-------------------------------------------------------------------Only noun_2 is entered
         }else if(noun_2 && !noun_1 && !verb_1 && !verb_2) {
             console.log(noun_2)
@@ -225,4 +324,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes('banana', 'apes');
+cursedQuotes('bananas');
