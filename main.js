@@ -274,7 +274,7 @@ let array = quotes[randID];
                     break;
                 case 10:
                     array.splice(2,1,noun_1);
-                    array.splice(9,1, verb_1);
+                    array.splice(3,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 11:
@@ -284,7 +284,7 @@ let array = quotes[randID];
                     break;
                 case 12:
                     array.splice(8,1,noun_1);
-                    array.splice(15,1, verb_1);
+                    array.splice(6,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 case 13:
@@ -294,7 +294,7 @@ let array = quotes[randID];
                     break;
                 case 14:
                     array.splice(4,1,noun_1);
-                    array.splice(9,1, verb_1);
+                    array.splice(2,1, verb_1);
                     console.log(array.join(' '));
                     break;
                 default:
@@ -356,27 +356,27 @@ let array = quotes[randID];
                     break;
                 case 10:
                     array.splice(2,1,noun_1);
-                    array.splice(9,1, verb_1);
+                    array.splice(9,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 case 11:
                     array.splice(8,1,noun_1);
-                    array.splice(7,1, verb_1);
+                    array.splice(8,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 case 12:
                     array.splice(8,1,noun_1);
-                    array.splice(15,1, verb_1);
+                    array.splice(15,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 case 13:
                     array.splice(0,1,noun_1);
-                    array.splice(1,1, verb_1);
+                    array.splice(8,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 case 14:
                     array.splice(4,1,noun_1);
-                    array.splice(9,1, verb_1);
+                    array.splice(9,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 default:
@@ -405,4 +405,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes('bananas',null,'run');
+cursedQuotes('bananas',null,null,'run');
