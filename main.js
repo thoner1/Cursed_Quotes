@@ -372,7 +372,7 @@ let array = quotes[randID];
                     break;
                 case 11:
                     array.splice(8,1,noun_1);
-                    array.splice(8,1, verb_2);
+                    array.splice(10,1, verb_2);
                     console.log(array.join(' '));
                     break;
                 case 12:
@@ -1550,4 +1550,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes(1);
+cursedQuotes();
