@@ -82,7 +82,7 @@ let array = quotes[randID];
     if (noun_1 || noun_2 || verb_1 || verb_2) {
 
 //------------- Only noun_1 is entered 
-        if(noun_1 === 'string' && !noun_2 && !verb_1 && !verb_2) {
+        if(typeof noun_1 === 'string' && !noun_2 && !verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -149,7 +149,7 @@ let array = quotes[randID];
                     break;
             };
 /*-- noun_1 and noun_2 are only entered -----*/
-        }else if(noun_1 === 'string' && noun_2 && !verb_1 && !verb_2) {
+        }else if(typeof noun_1 === 'string' && noun_2 && !verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -231,7 +231,7 @@ let array = quotes[randID];
                     break;
             };
 /*--------------------------------- noun_1 and verb_1 are only entered --*/
-        }else if(noun_1 === String && verb_1 && !noun_2 && !verb_2) {
+        }else if(typeof noun_1 === 'string' && verb_1 && !noun_2 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -313,7 +313,7 @@ let array = quotes[randID];
                     break;                
             };
 /*------------------------- noun_1 and verb_2 are entered ---*/
-        }else if(noun_1 === String && verb_2 && !noun_2 && !verb_1) {
+        }else if(typeof noun_1 === 'string' && verb_2 && !noun_2 && !verb_1) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -845,7 +845,7 @@ let array = quotes[randID];
             };
 
 //---------------------- noun_1, verb_1, and verb_2 are entered
-        }else if(noun_1 === String && verb_1 && verb_2 && !noun_2) {
+        }else if(typeof noun_1 === 'string' && verb_1 && verb_2 && !noun_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -1041,7 +1041,7 @@ let array = quotes[randID];
             };
 
 //------- noun_1, noun_2, and verb_1 are entered only
-        }else if(noun_1 === String && noun_2 && verb_1 && !verb_2) {
+        }else if(typeof noun_1 === 'string' && noun_2 && verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -1139,7 +1139,7 @@ let array = quotes[randID];
             };
 
 //------------- noun_1, noun_2, and verb_2 entered only
-        }else if (noun_1 === String && noun_2 && verb_2 && !verb_1) {
+        }else if (typeof noun_1 === 'string' && noun_2 && verb_2 && !verb_1) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -1237,7 +1237,7 @@ let array = quotes[randID];
             };
 
 //------------------ All parameters are entered (except random)
-        }else if(noun_1 === String && noun_2 && verb_1 && verb2) {
+        }else if(typeof noun_1 === 'string' && noun_2 && verb_1 && verb2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
