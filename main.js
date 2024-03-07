@@ -14,8 +14,19 @@ the console.
 scrambled with preconfigured nouns and verbs stored from a separate array within this function. */
 
 
-/*------------------------------------------------------------------------- Random Selector --------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------- Random Selectors --------------------------------------------------------------------------*/
 let randID = Math.floor(15*(Math.random()));
+let randID1 = Math.floor(15*(Math.random()));
+let randID2 = Math.floor(15*(Math.random()));
+let randID3 = Math.floor(15*(Math.random()));
+let randID4 = Math.floor(15*(Math.random()));
+
+//------------------------------------------------------------------------- Random Word Banks -----------------------------------------------------------------------//
+const noun_3 = ['bananas', 'fish', 'women', 'men', 'Danny DeVito', 'chicken', 'Mike Tyson', 'apples', 'spaghetti', 'umbrella', 'machete', 'sausage', 'monkeys', 'walrus', 'leg' ]
+const noun_4 = ['apes','fishermen', 'men', 'planes', 'snakes', 'axe', 'monkeys', 'donuts', 'flamingos', 'cat', 'hippopotamus', 'Kevin Hart', 'Ice Cube', 'noses', 'turkey sandwich']
+const verb_3 = ['sneeze', 'kick', 'cry', 'punch', 'pray', 'run', 'scream', 'fly', 'snore', 'jump', 'swim', 'smile', 'slap', 'eat', 'sleep']
+const verb_4 = ['bulldoze', 'burp', 'explain', 'question', 'interrogate', 'tickle', 'sniff', 'scratch', 'shoot', 'dodge', 'lick', 'swim', 'whip', 'swing', 'dance']
+
 
 /*------------------------------------------------------------------------ Enter Quotes Here -------------------------------------------------------------------------*/
     const quotes = [
@@ -1339,8 +1350,8 @@ let array = quotes[randID];
             };
         }
 /*---------------------------------------------------------------------- Random Modified Quote -----------------------------------------------------------------------*/
-    }else if (noun_2) {
-        console.log('I');
+    }else if (random && !noun_1 & !noun_2 && !verb_1 && !verb_2) {
+        
 
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
     }else {
