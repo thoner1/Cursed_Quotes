@@ -1,1 +1,1 @@
-# Whacked Quotes
+# Cursed Quotes
