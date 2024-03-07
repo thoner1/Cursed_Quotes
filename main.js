@@ -79,7 +79,7 @@ const verb_4 = ['bulldoze', 'burp', 'explain', 'question', 'interrogate', 'tickl
 let array = quotes[randID];
 
 /*------------------------------------------------------------- Checks if user entered in a noun or verb -------------------------------------------------------------*/
-    if (noun_1 || noun_2 || verb_1 || verb_2) {
+    if (typeof noun_1 === 'string' || noun_2 || verb_1 || verb_2) {
 
 //------------- Only noun_1 is entered 
         if(typeof noun_1 === 'string' && !noun_2 && !verb_1 && !verb_2) {
@@ -1350,7 +1350,7 @@ let array = quotes[randID];
             };
         }
 /*---------------------------------------------------------------------- Random Modified Quote -----------------------------------------------------------------------*/
-    }else if (noun_1 === 1 & !noun_2 && !verb_1 && !verb_2) {
+    }else if (noun_1 === 1 && !noun_2 && !verb_1 && !verb_2) {
         switch(randID) {
             case 0:
                 array.splice(4,1,noun_3[randID1]);
@@ -1464,8 +1464,9 @@ let array = quotes[randID];
 
 /*-------------------------------------------------------------------------- Standard Quote --------------------------------------------------------------------------*/
     }else {
-        console.log(array);
+
+        console.log(array.join(' '));
     };
 }
 
-cursedQuotes('Ducks');
+cursedQuotes();
