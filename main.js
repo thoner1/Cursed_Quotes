@@ -82,7 +82,7 @@ let array = quotes[randID];
     if (noun_1 || noun_2 || verb_1 || verb_2) {
 
 //------------- Only noun_1 is entered 
-        if(noun_1 === String && !noun_2 && !verb_1 && !verb_2) {
+        if(noun_1 === 'string' && !noun_2 && !verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -149,7 +149,7 @@ let array = quotes[randID];
                     break;
             };
 /*-- noun_1 and noun_2 are only entered -----*/
-        }else if(noun_1 === String && noun_2 && !verb_1 && !verb_2) {
+        }else if(noun_1 === 'string' && noun_2 && !verb_1 && !verb_2) {
             switch(randID) {
                 case 0:
                     array.splice(4,1,noun_1);
@@ -1468,4 +1468,4 @@ let array = quotes[randID];
     };
 }
 
-cursedQuotes(1);
+cursedQuotes('Ducks');
