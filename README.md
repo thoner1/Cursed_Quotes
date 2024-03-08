@@ -1,3 +1,3 @@
 # Cursed Quotes
 
-![JFK](./Images/JFK-November-1-1962.jpg)
+![Thomas Jefferson](./Images/Thomas%20Jefferson.jpg)
